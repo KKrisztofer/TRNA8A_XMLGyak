@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+    <cim>Megbeszélés</cim>
+    <hallgatok>
+        <hallgato>
+            <nev>Para Zita</nev>
+            <lakcim>Budapest</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Git Áron</nev>
+            <lakcim>Miskolc</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Am Erika</nev>
+            <lakcim>Amerika</lakcim>
+        </hallgato>
+    </hallgato>
+    <helyszin>Konferenciaterem</helyszin>
+    <eloado>
+        <nev>Dr. Wincs Eszter</nev>
+        <lakcim>Miskolc</lakcim>
+        <adoszam>11111111-1-11</adoszam>
+    </eloado>
+    <datum>2050.01.01</datum>
+</konferencia>
