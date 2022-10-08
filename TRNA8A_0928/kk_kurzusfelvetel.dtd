@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT kk_kurzusfelvetel>
+    <ATLIST kk_kurzusfelvetel> 
+        tanev CDATA #REQUIRED
+        egyetem CDATA #FIXED "ME"
+    </ATLIST>
+	
+<!ELEMENT hallgato (hnev, szulev, szak+)>
+    <ATLIST hallgato>
+		id ID #REQUIRED
+	</ATLIST>
+	
+<!ELEMENT hnev>
+<!ELEMENT szulev>
+<!ELEMENT szak>
+    <ATLIST szak>
+		evf #CDATA
+	</ATLIST>
+
+<!ELEMENT kurzusok (kurzus*)>
+
+<!ELEMENT kurzus (kurzusnev, kredit, hely, idopont+, oktato?)>
+    <ATLIST kurzus>
+        id ID #REQUIRED 
+        jovahagyas CDATA #FIXED "nem"
+        nyelv CDATA #FIXED "magyar"
+	</ATLIST>
+
+<!ELEMENT kurzusnev>
+<!ELEMENT kredit>
+<!ELEMENT hely>
+<!ELEMENT idopont>
+<!ELEMENT oktato>
