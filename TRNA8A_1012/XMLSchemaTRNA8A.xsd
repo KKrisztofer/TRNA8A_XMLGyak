@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3c.com/">
+
+<xs:complexType>
+    <xs:sequence>
+        <xs:element name="etterem" type="etteremTipus" />
+    </xs:sequence>
+</xs:complexType>
+
+<xs:key name="etterem_kulcs">
+    <xs:selector xpath="etterem" />
+    <xs:field xpath="@ekod" />
+</xs:key>
+
+<xs:keyref refer="etterem_kulcs" name="etterem_idegen_kulcs">
+    <xs:selector xpath="rendeles" />
+    <xs:field xpath="@e_v_e" />
+</xs:keyref>
