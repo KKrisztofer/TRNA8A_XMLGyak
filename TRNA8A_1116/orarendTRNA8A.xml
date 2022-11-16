@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type = "text/xsl" href="orarend_for-each.xsl"?>
+
+<trna8a_orarend>
+    <ora id="GEIAL331-B" tipus="elm">
+        <targy>Web-technológiák</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>8:00</tol>
+            <ig>9:00</ig>
+        </idopont>
+        <helyszin>A1 III. em. 305</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="ETTES2GE1" tipus="gyak">
+        <targy>Testnevelés</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>11:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>E/4 tornaterem</helyszin>
+        <oktato>Fellinger Szilvia</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="MIGEBANNY1" tipus="elm">
+        <targy>Angol nyelv nyelvvizsga előkészítő szint</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>A1 III. em. 310</helyszin>
+        <oktato>Pásztor Krisztina</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAL30A-B" tipus="gyak">
+        <targy>Windows rendszergazda</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Info: 103</helyszin>
+        <oktato>Wagner György</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAK120-B" tipus="elm">
+        <targy>Integrált vállalati rendszerek</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>A1 III. em. 313</helyszin>
+        <oktato>Dr. Samad Dadvandipour</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAL331-B" tipus="gyak">
+        <targy>Web-technológiák</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>18:00</tol>
+            <ig>20:00</ig>
+        </idopont>
+        <helyszin>Info: 202</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAK130-B" tipus="elm">
+        <targy>Mestersgées intelligencia alapok</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>9:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>A2 mfsz. II. előadó</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAL332-B" tipus="elm">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>A1 mfsz. XXXII. előadó</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAL30A-B" tipus="elm">
+        <targy>Windows rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Info: 103</helyszin>
+        <oktato>Wagner György</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEMAK131-B" tipus="gyak">
+        <targy>Valószínűség-számítás és matematikai statisztika</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>8:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>A1 III. em. 318</helyszin>
+        <oktato>Dr. Glavosits Tamás</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAL332-B" tipus="gyak">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>Info: 101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAL333-B" tipus="gyak">
+        <targy>Web-es alkalmazások</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>13:00</tol>
+            <ig>15:00</ig>
+        </idopont>
+        <helyszin>online</helyszin>
+        <oktato>Selmeci Viktor</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAK120-B" tipus="gyak">
+        <targy>Integrált vállalati rendszerek</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>15:00</tol>
+            <ig>17:00</ig>
+        </idopont>
+        <helyszin>Info: 15</helyszin>
+        <oktato>Kulcsárné Dr.Forrai Mónika</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="GEIAK130-B" tipus="gyak">
+        <targy>Mesterséges intelligencia alapok</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>17:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>Info: 15</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+</trna8a_orarend>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type = "text/xsl" href="student_for-each.xsl"?>
+
+<class>
+    <student id="01">
+        <vezeteknev>Fekete</vezeteknev>
+        <keresztnev>Péter</keresztnev>
+        <becenev>Petya</becenev>
+        <kor>22</kor>
+        <osztondij>60000</osztondij>
+    </student>
+    <student id="02">
+        <vezeteknev>Kek</vezeteknev>
+        <keresztnev>Dóra</keresztnev>
+        <becenev>Dorka</becenev>
+        <kor>21</kor>
+        <osztondij>20000</osztondij>
+    </student>
+    <student id="03">
+        <vezeteknev>Kerekes</vezeteknev>
+        <keresztnev>Krisztofer</keresztnev>
+        <becenev>Krisztó</becenev>
+        <kor>21</kor>
+        <osztondij>30000</osztondij>
+    </student>
+</class>
