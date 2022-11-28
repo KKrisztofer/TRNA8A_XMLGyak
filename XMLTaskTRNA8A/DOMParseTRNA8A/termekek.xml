@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<termekek xmlns="DOMTRNA8A">
+    <termek tid="t001">
+        <elnevezes>Samsung UE43TU7022 TV</elnevezes>
+        <leiras>Merülj el a képben a szélesebb színskálával! A Crystal Display biztosítja az optimalizált színkifejezést, így minden részletet láthatsz.</leiras>
+        <ar>129899</ar>
+    </termek>
+    <termek tid="t002">
+        <elnevezes>alma</elnevezes>
+        <leiras>Az ultraszéles látószögű kamera közvetlen közelről is nagy látóteret ad, hogy hátralépés nélkül is többet belefoglalhass a látványból a képbe.</leiras>
+        <ar>312970</ar>
+    </termek>
+    <termek tid="t003">
+        <elnevezes>Samsung Galaxy A52s 5G 128GB</elnevezes>
+        <leiras>A következő generációs mobiladat-hálózaton az 5G sebesség megváltoztatja a tapasztalatok és a tartalom megosztásának módját, a szuper gördülékeny játéktól és streamingtől kezdve az ultragyors megosztásig és letöltésig. Válts Samsung Galaxy A52s 5G-re és tapasztald meg a valódi gyorsaságot!</leiras>
+        <ar>136990</ar>
+    </termek>
+    <termek tid="t004">
+        <elnevezes>ASUS X515EA-BQ1187 Notebook</elnevezes>
+        <leiras>-</leiras>
+        <ar>184990</ar>
+    </termek>
+    <termek tid="t005">
+        <elnevezes>Samsung Galaxy Watch 5 40mm</elnevezes>
+        <leiras>Kövesd nyomod egészséged még éjszaka is!</leiras>
+        <ar>88190</ar>
+    </termek>
+</termekek>
