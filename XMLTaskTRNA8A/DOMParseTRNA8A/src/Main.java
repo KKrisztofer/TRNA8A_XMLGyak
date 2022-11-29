@@ -11,8 +11,6 @@ public class Main {
 
         //DomModifyTRNA8A.ModifyTermek();
 
-        DomQueryTRNA8A.QueryVasarlo();
-        DomQueryTRNA8A.QueryTermek();
-        DomQueryTRNA8A.QueryFutarceg();
+        DomQueryTRNA8A.QueryOlcsobbTermekMint(100000);
     }
 }

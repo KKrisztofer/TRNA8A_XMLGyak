@@ -146,4 +146,65 @@ public class DomQueryTRNA8A {
             }
         }
     }
+
+
+    public static void QueryOlcsobbTermekMint(int input){
+        try {
+            File file = new File("XMLTRNA8A.xml");
+
+            DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            Document document = documentBuilder.parse(file);
+
+            document.getDocumentElement().normalize();
+
+            System.out.println(input + " Ft-nál olcsóbb termékek: ");
+            NodeList nList2 = document.getElementsByTagName("termek");
+
+            for (int i = 0; i < nList2.getLength(); i++) {
+
+                Node nNode = nList2.item(i);
+
+                if (nNode.getNodeType()==Node.ELEMENT_NODE) {
+
+                    Element elem = (Element) nNode;
+                    NodeList childNodes = nNode.getChildNodes();
+
+                    for (int j = 0; j < childNodes.getLength(); j++) {
+
+                        Node childNode = childNodes.item(j);
+
+                        if ("ar".equals(childNode.getNodeName())) {
+
+                            if (Integer.valueOf(childNode.getTextContent()) < input) {
+
+                                String tid = elem.getAttribute("tid");
+                                Node node1 = elem.getElementsByTagName("elnevezes").item(0);
+                                String elnevezes = node1.getTextContent();
+                                Node node2 = elem.getElementsByTagName("leiras").item(0);
+                                String leiras = node2.getTextContent();
+                                Node node3 = elem.getElementsByTagName("ar").item(0);
+                                String ar = node3.getTextContent();
+
+                                System.out.println("TID: " + tid);
+                                System.out.println("Elnevezés: " + elnevezes);
+                                System.out.println("Leírás: " + leiras);
+                                System.out.println("Ár: " + ar);
+
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }
