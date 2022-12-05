@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<_id>TRNA8A</_id>
+	<name>vizsgak</name>
+	<vizsgak>
+		<vizsga>
+			<kurzus>Objektum orientált programozás</kurzus>
+			<helyszin>Online</helyszin>
+			<idopont>
+				<nap>2021.06.17.</nap>
+				<tol>9:00</tol>
+				<ig>10:00</ig>
+			</idopont>
+			<oktato>Dr. Baksáné Dr. Varga Erika</oktato>
+			<jegy>5</jegy>
+		</vizsga>
+		<vizsga>
+			<kurzus>Adatstruktúrák és algoritmusok</kurzus>
+			<helyszin>Online</helyszin>
+			<idopont>
+				<nap>2021.05.17.</nap>
+				<tol>8:00</tol>
+				<ig>10:00</ig>
+			</idopont>
+			<oktato>Dr. Házy Attila</oktato>
+			<jegy>5</jegy>
+		</vizsga>
+		<vizsga>
+			<kurzus>Operációs rendszerek</kurzus>
+			<helyszin>Online</helyszin>
+			<idopont>
+				<nap>2021.06.15.</nap>
+				<tol>9:00</tol>
+				<ig>10:00</ig>
+			</idopont>
+			<oktato>Dr. Bednarik László</oktato>
+			<jegy>3</jegy>
+		</vizsga>
+	</vizsgak>
+</root>

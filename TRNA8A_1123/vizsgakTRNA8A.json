@@ -1,0 +1,39 @@
+{
+  "_id": "TRNA8A",
+  "name": "vizsgak",
+  "vizsgak_trna8a": {
+    "vizsga": {
+      "kurzus": "Objektum orientált programozás",
+      "helyszin": "In/103",
+      "idopont": {
+        "nap": "2021.06.17.",
+        "tol": "9:00",
+        "ig": "10:00"
+      },
+      "oktato": "Dr. Baksáné Dr. Varga Erika",
+      "jegy": 5
+    },
+    "vizsga": {
+      "kurzus": "Adatstruktúrák és algoritmusok",
+      "helyszin": "Online",
+      "idopont": {
+        "nap": "2021.05.17.",
+        "tol": "8:00",
+        "ig": "10:00"
+      },
+      "oktato": "Dr. Házy Attila",
+      "jegy": 5
+    },
+    "vizsga": {
+      "kurzus": "Operációs rendszerek",
+      "helyszin": "Online",
+      "idopont": {
+        "nap": "2021.06.15.",
+        "tol": "9:00",
+        "ig": "10:00"
+      },
+      "oktato": "Dr. Bednarik László",
+      "jegy": 3
+    }
+  }
+}

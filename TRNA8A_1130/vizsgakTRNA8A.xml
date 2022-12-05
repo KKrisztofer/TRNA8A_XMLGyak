@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<_id>TRNA8A</_id>
+	<name>vizsgak</name>
+	<vizsgak>
+		<vizsga>
+			<kurzus>Analízis</kurzus>
+			<helyszin>E12</helyszin>
+			<idopont>
+				<nap>2022.06.06</nap>
+				<tol>10</tol>
+				<ig>14</ig>
+			</idopont>
+			<oktato>Szilágyi Szilvia</oktato>
+			<jegy>3</jegy>
+		</vizsga>
+		<vizsga>
+			<kurzus>Biztonság és védelem a számítástechnikában</kurzus>
+			<helyszin>L103</helyszin>
+			<idopont>
+				<nap>2022.06.16</nap>
+				<tol>11</tol>
+				<ig>13</ig>
+			</idopont>
+			<oktato>Wagner György</oktato>
+			<jegy>4</jegy>
+		</vizsga>
+	</vizsgak>
+</root>
