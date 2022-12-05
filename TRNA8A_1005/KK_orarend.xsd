@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xs:simpleType name="tipusTipus">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Elmelet|Gyakorlat"/>
+		</xs:restriction>
+	</xs:simpleType>
+				
+	<xs:simpleType name="napTipus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Hetfo"/>
+			<xs:enumeration value="Kedd"/>
+			<xs:enumeration value="Szerda"/>
+			<xs:enumeration value="Csutortok"/>
+			<xs:enumeration value="Pentek"/>
+			<xs:enumeration value="Szombat"/>
+			<xs:enumeration value="Vasárnap"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="tolTipus">
+		<xs:restriction base="xs:integer">
+			<xs:minLength value="0"/>
+			<xs:minLength value="24"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="igTipus">
+		<xs:restriction base="xs:integer">
+			<xs:minLength value="0"/>
+			<xs:minLength value="24"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	
+	
+	<xs:element name="ora">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="targy" type="xs:string"/>
+				<xs:element ref="idopont"/>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="napTipus"/>
+							<xs:element ref="tolTipus"/>
+							<xs:element ref="igTipus"/>
+						</xs:sequence>
+					</xs:complexType>
+				<xs:element ref="helyszin" type="xs:string"/>
+				<xs:element ref="oktato" type="xs:string"/>
+				<xs:element ref="szak" type="xs:string"/>
+				
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:integer" use="required"/>
+			<xs:attribute name="tipus" type="tipusTipus" use="required"/>
+		</xs:complexType>
+	</xs:element>
