@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<user>
+	<user id='1'>
+		<firstname>Krisztofer</firstname>
+		<lastname>Kerekes</lastname>
+		<profession>Student</profession>
+	</user>
+	
+	<user id='2'>
+		<firstname>Elek</firstname>
+		<lastname>Vicc</lastname>
+		<profession>Student</profession>
+	</user>
+</user>
