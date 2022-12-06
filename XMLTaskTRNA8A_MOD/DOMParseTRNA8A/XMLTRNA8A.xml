@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><webshop xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaTRNA8A.xsd">
+
+    <!-- Vásárlók -->
+    <vasarlo vid="v001">
+        <vezeteknev>Kerekes</vezeteknev>
+        <keresztnev>Krisztofer</keresztnev>
+        <cim>
+            <varos>Nyékládháza</varos>
+            <utca>Balassi Bálint</utca>
+            <hazszam>37</hazszam>
+        </cim>
+        <telefonszam>06123456789</telefonszam>
+    </vasarlo>
+    <vasarlo vid="v002">
+        <vezeteknev>Szabó</vezeteknev>
+        <keresztnev>Béla</keresztnev>
+        <cim>
+            <varos>Nyékládháza</varos>
+            <utca>Arany János</utca>
+            <hazszam>12</hazszam>
+        </cim>
+        <telefonszam>06704356724</telefonszam>
+    </vasarlo>
+    <vasarlo vid="v003">
+        <vezeteknev>Kovács</vezeteknev>
+        <keresztnev>Péter</keresztnev>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Kossuth Lajos</utca>
+            <hazszam>56</hazszam>
+        </cim>
+        <telefonszam>06203927564</telefonszam>
+    </vasarlo>
+
+    <!-- Termékek -->
+    <termek tid="t001">
+        <elnevezes>Samsung UE43TU7022 TV</elnevezes>
+        <leiras>Merülj el a képben a szélesebb színskálával! A Crystal Display biztosítja az optimalizált színkifejezést, így minden részletet láthatsz.</leiras>
+        <ar>10000</ar>
+    </termek>
+    <termek tid="t002">
+        <elnevezes>Apple iPhone 13 128GB Mobiltelefon</elnevezes>
+        <leiras>Az ultraszéles látószögű kamera közvetlen közelről is nagy látóteret ad, hogy hátralépés nélkül is többet belefoglalhass a látványból a képbe.</leiras>
+        <ar>312970</ar>
+    </termek>
+    <termek tid="t003">
+        <elnevezes>Samsung Galaxy A52s 5G 128GB</elnevezes>
+        <leiras>A következő generációs mobiladat-hálózaton az 5G sebesség megváltoztatja a tapasztalatok és a tartalom megosztásának módját, a szuper gördülékeny játéktól és streamingtől kezdve az ultragyors megosztásig és letöltésig. Válts Samsung Galaxy A52s 5G-re és tapasztald meg a valódi gyorsaságot!</leiras>
+        <ar>136990</ar>
+    </termek>
+    <termek tid="t004">
+        <elnevezes>ASUS X515EA-BQ1187 Notebook</elnevezes>
+		<leiras>Laptop</leiras>
+        <ar>184990</ar>
+    </termek>
+    <termek tid="t005">
+        <elnevezes>Samsung Galaxy Watch 5 40mm</elnevezes>
+        <leiras>Kövesd nyomod egészséged még éjszaka is!</leiras>
+        <ar>88190</ar>
+    </termek>
+
+    <!-- Futárcégek -->
+    <futarceg fid="f01">
+        <nev>Foxpost Kft.</nev>
+        <cim>1097 Budapest, Könyves Kálmán krt. 12-14</cim>
+        <szallitasiido>2 nap</szallitasiido>
+        <ar>300</ar>
+    </futarceg>
+    <futarceg fid="f02">
+        <nev>GLS</nev>
+        <cim>Budapest</cim>
+        <szallitasiido>3 nap</szallitasiido>
+        <ar>1799</ar>
+    </futarceg>
+    <futarceg fid="f03">
+        <nev>Packeta</nev>
+        <cim>Budapest Ezred utca 2</cim>
+        <szallitasiido>4 nap</szallitasiido>
+        <ar>2000</ar>
+    </futarceg>
+
+    <!-- Raktár -->
+    <nyilvantartas tid_f="t001">
+        <mennyiseg>20</mennyiseg>
+    </nyilvantartas>
+    <nyilvantartas tid_f="t002">
+        <mennyiseg>6</mennyiseg>
+    </nyilvantartas>
+    <nyilvantartas tid_f="t003">
+        <mennyiseg>32</mennyiseg>
+    </nyilvantartas>
+    <nyilvantartas tid_f="t004">
+        <mennyiseg>24</mennyiseg>
+    </nyilvantartas>
+    <nyilvantartas tid_f="t005">
+        <mennyiseg>13</mennyiseg>
+    </nyilvantartas>
+
+    <!-- Rendelések -->
+    <rendeles rid="r001" vid_f="v001">
+        <datum>
+            <ev>2022</ev>
+            <honap>11</honap>
+            <nap>03</nap>
+            <ora>14</ora>
+            <perc>32</perc>
+        </datum>
+        <tartalom>
+            <arucikk>
+                <tid_f>t002</tid_f>
+                <mennyiseg>1</mennyiseg>
+            </arucikk>
+            <arucikk>
+                <tid_f>t003</tid_f>
+                <mennyiseg>2</mennyiseg>
+            </arucikk>
+        </tartalom>
+        <vegosszeg>314469</vegosszeg>
+        <futar>
+            <fid_f>f01</fid_f>
+            <felvetel>2022-11-04</felvetel>
+            <kezbesites>2022-11-05</kezbesites>
+        </futar>
+    </rendeles>
+
+    <rendeles rid="r002" vid_f="v002">
+        <datum>
+            <ev>2022</ev>
+            <honap>11</honap>
+            <nap>04</nap>
+            <ora>16</ora>
+            <perc>42</perc>
+        </datum>
+        <tartalom>
+            <arucikk>
+                <tid_f>t003</tid_f>
+                <mennyiseg>1</mennyiseg>
+            </arucikk>
+        </tartalom>
+        <vegosszeg>138990</vegosszeg>
+        <futar>
+            <fid_f>f03</fid_f>
+            <felvetel>2022-11-05</felvetel>
+            <kezbesites>2022-11-06</kezbesites>
+        </futar>
+    </rendeles>
+</webshop>
